@@ -22,6 +22,21 @@ repeatBuyers · topCategory
 ['Ayu', 'Budi'] 'Elektronik'
  */
 
+/**
+ *  instrumen penilaian 
+ * 
+ * Kualitas kode
+Fungsi pendek, ekspresif, mudah dibaca
+Maintainability
+Fungsi b dipakai ulang di d, tidak ada duplikasi logika
+Reliability
+Hasil benar untuk data dengan 0, 1, atau banyak transaksi
+Keamanan
+Data asli tidak dimutasi di seluruh fungsi
+Kompleksitas
+Tidak ada iterasi ganda yang bisa digabung dalam satu reduce
+ */
+
 const transactions = [
     { id: 1, buyer: 'Ayu', category: 'Buku', amount: 85000 },
     { id: 2, buyer: 'Budi', category: 'Elektronik', amount: 450000 },
@@ -30,3 +45,19 @@ const transactions = [
     { id: 5, buyer: 'Dani', category: 'Buku', amount: 75000 },
     { id: 6, buyer: 'Budi', category: 'Fashion', amount: 130000 },
 ];
+
+function totalRevenue(transactions){
+    return 0; // should return number
+}
+
+function revenueByObjects(transactions){
+    return {} //should return object and the value if item category groupping
+}
+
+function repeatBuyers(transactions){
+    return [] //should return duplicate buyer name in array (note: fill the duplicate value just once)
+}
+
+function topCategory(transactions){
+    return {} //should return object category with highest spending
+}

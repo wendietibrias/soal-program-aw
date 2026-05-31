@@ -31,3 +31,16 @@ const students = [
     { name: 'Eka', score: 91 },
 ];
 
+function toLetterGrade(students){
+    /**
+     *  should print : 
+     * 
+     *  1. if you using map, you need to print or console.log the value for each object that has done mapped like this [{ name: 'Ayu', score: 88, grade: 'A' }]
+     *  2. if you using filter you need return student who pass the minimum score which is >= 60
+     *  3. if you using reduce you need to return average score
+     */
+
+     const mappedStudentWithScore = students.map((student) => {});
+     const filterPassedStudent = students.filter((studennt) => {});
+     const calculateAverageScore = students.reduce((acc,curr) => {},0);
+}
