@@ -53,15 +53,10 @@ note untuk setiap fungsi yang terdapat pada soal 2 :
 
 
 function totalRevenue(transactions){
-    return transactions.reduce((a,b) => a + b.amount,0); // should return number
+    return  // should return number
 }
 
 function revenueByCategory(transactions){
-    const grouppedObjectByRevenue = []; // should return    
-    for(const item of transactions){
-        const findIndexByName
-        grouppedObjectByRevenue.push()
-    }
      //should return object and the value if item category groupping
 }
 
