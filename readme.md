@@ -17,7 +17,7 @@ d. Gunakan reduce untuk menghitung rata-rata nilai keseluruhan. Hasilkan angka d
 
   output yang diharapkan 
   Hasil map (grade ditambahkan) { name: 'Ayu', score: 88, grade: 'A' } { name: 'Budi', score: 52, grade: 'D' } ...
-  Hasil filter & reduce
+  Hasil filter & reduce : 
   lulus: ['Ayu','Citra','Eka'] rata-rata: 70.20
 
   note : 

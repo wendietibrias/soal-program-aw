@@ -15,15 +15,26 @@ function totalRevenue(transactions){
 function revenueByCategory(transactions){
     const grouppedObjectByRevenue = []; // should return    
     for(const item of transactions){
-        const findIndexByName
-        grouppedObjectByRevenue.push()
+        const findIndexByName = grouppedObjectByRevenue.findIndex((detail) => detail.category == item.category);
+        if(findIndexByName > -1) {
+            grouppedObjectByRevenue[findIndexByName].amount += item.amount;
+        } else {
+            grouppedObjectByRevenue.push({
+                 category: item.category,
+                 amount: item.amount
+            });
+        }
     }
+
+    return grouppedObjectByRevenue;
 }
 
 function repeatBuyers(transactions){
-    return [] 
+    const mapDuplicateBuyer = transactions.map((item) => {
+         
+    })
 }
 
 function topCategory(transactions){
-    return {} 
+    return transactions.sort((a,b) =>  b.amount - a.amount);
 }
