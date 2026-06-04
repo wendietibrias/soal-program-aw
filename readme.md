@@ -17,8 +17,7 @@ d. Gunakan reduce untuk menghitung rata-rata nilai keseluruhan. Hasilkan angka d
 
   output yang diharapkan 
   Hasil map (grade ditambahkan) { name: 'Ayu', score: 88, grade: 'A' } { name: 'Budi', score: 52, grade: 'D' } ...
-  Hasil filter & reduce : 
-  lulus: ['Ayu','Citra','Eka'] rata-rata: 70.20
+  Hasil :
 
   note : 
 
@@ -27,6 +26,23 @@ d. Gunakan reduce untuk menghitung rata-rata nilai keseluruhan. Hasilkan angka d
       1. if you using map, you need to print or console.log the value for each object that has done mapped like this [{ name: 'Ayu', score: 88, grade: 'A' }]
       2. if you using filter you need return student who pass the minimum score which is >= 60
       3. if you using reduce you need to return average score
+
+
+    hasil yang di harapkan : 
+
+  1. kembalikan object mahasiswa dengan grade  [
+  { name: 'Ayu', score: 88, grade: 'A' },
+  { name: 'Budi', score: 52, grade: 'D' },
+  { name: 'Citra', score: 75, grade: 'B' },
+  { name: 'Dani', score: 45, grade: 'E' },
+  { name: 'Eka', score: 91, grade: 'A' }
+]
+2. Kembalikan objek array yang hanya mengembalikan murid yang lulus [
+  { name: 'Ayu', score: 88 },
+  { name: 'Citra', score: 75 },
+  { name: 'Eka', score: 91 }
+]
+3. Hitung rata rata dari keseluruhan siswa -> 70.2
      
 
 2. Soal 2 
@@ -71,3 +87,18 @@ function repeatBuyers(transactions){
 function topCategory(transactions){
     return {} //should return object category with highest spending
 }
+
+hasil yang di harapkan per function : 
+
+1. 1120000 -> totalRevenue
+2. revenue by category -> [
+  { category: 'Buku', amount: 220000 },
+  { category: 'Elektronik', amount: 770000 },
+  { category: 'Fashion', amount: 130000 }
+]
+3. [] -> repeat buyers 
+4. [
+  { category: 'Elektronik', amount: 770000 },
+  { category: 'Buku', amount: 220000 },
+  { category: 'Fashion', amount: 130000 }
+] -> total by category
