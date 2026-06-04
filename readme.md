@@ -1,3 +1,7 @@
+Anda di perbolehkan mengunakan cara apa pun untuk menyelesaikan kode-kode program yang tersedia, terapkan prinsip menulis kode bersih saat anda menyelesaikan soal soal yang tersedia. 
+
+TERIMAKASIH.
+
 1. Soal 1 
  
   Dosen memiliki data nilai mentah mahasiswa dalam bentuk array of object. 
