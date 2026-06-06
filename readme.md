@@ -96,7 +96,7 @@ hasil yang di harapkan per function :
   { category: 'Elektronik', amount: 770000 },
   { category: 'Fashion', amount: 130000 }
 ]
-3. [] -> repeat buyers 
+3. ['Ayu', 'Budi'] -> repeat buyers 
 4. [
   { category: 'Elektronik', amount: 770000 },
   { category: 'Buku', amount: 220000 },
