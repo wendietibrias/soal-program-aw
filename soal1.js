@@ -10,3 +10,15 @@ const students = [
 function toLetterGrade(students){
      //write your solution here
 }
+
+function studentWithGrade(students){
+    //write your solution here
+}
+
+function passedStudent(students){
+    //write your solution here
+}
+
+function averageStudentScore(students) {
+    //write your solution here
+}
