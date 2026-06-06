@@ -8,10 +8,5 @@ const students = [
 ];
 
 function toLetterGrade(students){
-   
-     const mappedStudentWithScore = students.map((student) => {});
-     const filterPassedStudent = students.filter((studennt) => {});
-     const calculateAverageScore = students.reduce((acc,curr) => {},0);
-
      //write your solution here
 }
