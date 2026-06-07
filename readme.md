@@ -1,5 +1,13 @@
 Anda di perbolehkan mengunakan cara apa pun untuk menyelesaikan kode-kode program yang tersedia, terapkan prinsip menulis kode bersih saat anda menyelesaikan soal soal yang tersedia. 
 
+Selesaikan studi kasus berikut menggunakan JavaScript.
+
+Persyaratan:
+- Program harus berjalan sesuai kebutuhan.
+- Gunakan penamaan variabel yang jelas.
+- Hindari pengulangan kode yang tidak perlu.
+- Buat kode yang mudah dibaca dan dipelihara.
+
 TERIMAKASIH.
 
 1. Soal 1 
