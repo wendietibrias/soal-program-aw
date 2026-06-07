@@ -9,32 +9,18 @@ const transactions = [
 ];
 
 function totalRevenue(transactions){
-    return transactions.reduce((a,b) => a + b.amount,0); // should return number
+    //write your solution here
 }
 
 function revenueByCategory(transactions){
     const grouppedObjectByRevenue = []; // should return    
-    for(const item of transactions){
-        const findIndexByName = grouppedObjectByRevenue.findIndex((detail) => detail.category == item.category);
-        if(findIndexByName > -1) {
-            grouppedObjectByRevenue[findIndexByName].amount += item.amount;
-        } else {
-            grouppedObjectByRevenue.push({
-                 category: item.category,
-                 amount: item.amount
-            });
-        }
-    }
-
-    return grouppedObjectByRevenue;
+    // write your solution here
 }
 
 function repeatBuyers(transactions){
-    const mapDuplicateBuyer = transactions.map((item) => {
-         
-    })
+    //write your solution here
 }
 
 function topCategory(transactions){
-    return transactions.sort((a,b) =>  b.amount - a.amount);
+    //write your solution here
 }
